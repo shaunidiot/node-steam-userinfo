@@ -1,0 +1,23 @@
+{
+  "name": "node-steam-userinfo",
+  "version": "1.0.0",
+  "description": "Tiny node.js module to fetch steam user data from steamID64s",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lwatt/node-steam-userinfo.git"
+  },
+  "keywords": [
+    "steam"
+  ],
+  "author": "'Laurence",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lwatt/node-steam-userinfo/issues"
+  },
+  "homepage": "https://github.com/Lwatt/node-steam-userinfo",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.56.0"
+  }
+}
