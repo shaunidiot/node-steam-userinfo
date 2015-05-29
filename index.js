@@ -46,6 +46,6 @@ var setup = function(sessionID, callback){
 }
 
 module.exports = {
-	getUserInfo: getUserInfo,,
+	getUserInfo: getUserInfo,
 	setup: setup
 }
