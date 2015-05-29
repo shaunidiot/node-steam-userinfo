@@ -41,8 +41,8 @@ var getUserInfo = function (steamid, callback){
 	});
 }
 
-var setup = function(sessionID, callback){
-	sessionID = options.sessionID;
+var setup = function(sID, callback){
+	sessionID = sID;
 }
 
 module.exports = {
