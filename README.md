@@ -13,7 +13,7 @@ npm install steam-userinfo
 
 Require the module and run the setup method with your Steam Web API key (string)
 
-```
+```js
 var steamuserinfo = require('steam-userinfo');
 
 steamuserinfo.setup(yourapikey);
@@ -28,7 +28,7 @@ Must be used to provide the module with a valid api key before any other methods
 
 Returns a javascript object of data on the steamID64 in question
 
-```
+```js
 steamuserinfo.getUserInfo(steamID64, function(error, data){
 	if(error) throw error;
 	//process the data
