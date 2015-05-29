@@ -1,5 +1,5 @@
 {
-  "name": "node-steam-userinfo",
+  "name": "steam-userinfo",
   "version": "1.0.0",
   "description": "Tiny node.js module to fetch steam user data from steamID64s",
   "main": "index.js",
