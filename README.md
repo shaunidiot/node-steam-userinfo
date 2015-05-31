@@ -26,7 +26,9 @@ Must be used to provide the module with a valid api key before any other methods
 
 ## getUserInfo(steamID64, callback)
 
-Returns a javascript object of data on the steamID64 in question
+Returns a javascript object of data on the steamID64 in question. Can also take an array of steamID64s (strings) in place of a single string and will return the data for every player. 
+
+Callback as an error-first function(error, data){}
 
 ```js
 steamuserinfo.getUserInfo(steamID64, function(error, data){
