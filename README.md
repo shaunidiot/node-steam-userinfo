@@ -1,4 +1,6 @@
 # Steam User Info for Node.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/shaunidiot/node-steam-userinfo.svg)](https://greenkeeper.io/)
 Tiny node.js module to fetch steam user data from steamID64s
 
 This was created so that persona names could be found from steamIDs given in trade offers
