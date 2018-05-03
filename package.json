@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Lwatt/node-steam-userinfo",
   "dependencies": {
-    "cheerio": "^0.19.0",
+    "cheerio": "^0.22.0",
     "request": "^2.56.0"
   }
 }
